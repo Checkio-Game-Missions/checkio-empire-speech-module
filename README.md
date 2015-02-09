@@ -1,4 +1,4 @@
-checkio-task-speech-module
+speech-module
 =====================
 
-Checkio task "Speech Module"
+Crystal Farm 2.3 "Speech Module"
