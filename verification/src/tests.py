@@ -1,5 +1,5 @@
 TESTS = {
-    "Basics": [
+    "Rank_01": [
         {
             "input": 1,
             "answer": "one"
@@ -205,5 +205,62 @@ TESTS = {
             "input": 269,
             "answer": "two hundred sixty nine"
         }
+    ],
+    "Rank_02": [
+        {
+            "input": 0,
+            "answer": "zero",
+        },
+        {
+            "input": -777,
+            "answer": "minus seven hundred seventy seven",
+        },
+
+        {
+            "input": -999,
+            "answer": "minus nine hundred ninety nine",
+        },
+        {
+            "input": -1,
+            "answer": "minus one",
+        },
+        {
+            "input": -10,
+            "answer": "minus ten",
+        },
+        {
+            "input": -100,
+            "answer": "minus one hundred",
+        },
+        {
+            "input": -213,
+            "answer": "minus two hundred thirteen",
+        },
+        {
+            "input": -562,
+            "answer": "minus five hundred sixty two",
+        },
+    ],
+    "Rank_03": [
+        {
+            "input": 42000,
+            "answer": "forty two thousand",
+        },
+        {
+            "input": -999999,
+            "answer": "minus nine hundred ninety nine thousand nine hundred ninety nine",
+        },
+        {
+            "input": 245312,
+            "answer": "two hundred forty five thousand three hundred twelve",
+        },
+        {
+            "input": -1000,
+            "answer": "minus one thousand",
+        },
+        {
+            "input": 888001,
+            "answer": "eight hundred eighty eight thousand one",
+        },
     ]
 }
