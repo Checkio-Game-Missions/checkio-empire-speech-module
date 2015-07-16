@@ -1,6 +1,6 @@
 **Optional goal**
 
-**Rank 2**: A number can be zero and negative. For negative number append "minus" before.
+**Rank 2**: A number can be zero and negative. For a negative number, append "minus" in front of it.
 
 `-1000 < number < 1000`
 
