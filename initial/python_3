@@ -30,3 +30,5 @@ if __name__ == '__main__':
     assert tell_number(42000) == 'forty two thousand', "42 many"
     assert (tell_number(-999999) ==
             "minus nine hundred ninety nine thousand nine hundred ninety nine"), "Abyss"
+
+    print("Earn cool rewards by using the 'Check' button!")
