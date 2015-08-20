@@ -1,3 +1,5 @@
+"use strict";
+
 var FIRST_TEN = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 var SECOND_TEN = ["ten", "eleven", "twelve", "thirteen", "fourteen",
               "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
@@ -31,5 +33,7 @@ if (!global.is_checking) {
     assert.equal(tellNumber(42000),'forty two thousand', "42 many");
     assert.equal(tellNumber(-999999),
             "minus nine hundred ninety nine thousand nine hundred ninety nine", "Abyss");
+    console.log("Code's finished? Earn rewards by clicking 'Check' to review your tests!");
 }
+
 
